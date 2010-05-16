@@ -13,8 +13,8 @@ CLASSES = \
 default: classes
 
 classes: $(CLASSES:.java=.class)
-clientTCP: $(CLASSES:.java=.class)
-clientUDP: $(CLASSES:.java=.class)
+runTCP: $(CLASSES:.java=.class)
+runUDP: $(CLASSES:.java=.class)
 
 clean:
         $(RM) *.class
